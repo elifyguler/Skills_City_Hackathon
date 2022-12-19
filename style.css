@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;700;800");
+
+
+body {
+    background-color: #2f2f31;
+    font-family: Manrope;
+    opacity: 89%;
+
+}
+
+h2, p {
+    padding: 1rem;
+    color: #f2f2f2;
+
+}
+
+.ment {
+    padding: 5px 70px;
+}
+
+.main {
+    padding-left: 3rem;
+    padding-right: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav h1 {
+    color: white;
+ 
+}
+
+.nav-link{
+    padding: 20px;
+}
+
+.cardbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+    background-color: #2f2f31;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    color: white;
+  
+}
+
+nav a {
+    color: #f2f2f2;
+
+}
+
+nav a:hover {
+    color:yellow;
+    border-bottom: 2px solid grey;
+}
+
+nav ul {
+    display: flex;
+    gap: 5px;
+}
+
+nav ul li {
+    font-weight: bold;
+}
+.card{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.card-text {
+    color: #2f2f31;
+}
+
+.card-title {
+    text-align: center;
+    color: #2f2f31;
+}
+
+.card-img-top{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+body {
+    font-family: 'manrope';
+    background-color: #535252;
+    color: white;
+    opacity: 89%;
+   }
+    
+    input[type=text], input[type=password] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+   }
+    
+   input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+   }
+    
+   hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+   }
+    
+   button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+   }
+    
+   button:hover {
+    opacity:1;
+   }
+    
+   .cancelbtn {
+    padding: 14px 20px;
+    background-color: #2f2f31;
+    border: #f1f1f1 solid 1px;
+    margin-right: 2px;
+   }
+    
+   .cancelbtn, .signupbtn {
+    float: left;
+    width: 10%;
+    border-radius: 15px;
+   }
+    
+   .container {
+    padding: 16px;
+   }
+    
+   .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+   }
+    
+   @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+    width: 20%;
+    border-radius: 25%;
+   }
+
+   }
+.footer {
+    height: 100px;
+    background-color: #2f2f31;
+    text-align: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+}
+.linkedin-link{
+    color:white;
+    text-decoration: none;
+}
+.linkedin-link:hover{
+    color:rgb(222, 149, 197);
+}
